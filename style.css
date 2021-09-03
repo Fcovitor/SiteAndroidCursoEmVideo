@@ -1,0 +1,181 @@
+@font-face {
+    font-family:'android' ;
+    src: url('./fontes/idroid.otf') ;
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    background-color: rgb(247, 238, 221);
+    
+    
+}
+
+
+/*--------- header -----------*/
+
+header{
+    background: #2A3EF5;
+    color: rgb(255, 255, 255);
+    
+}
+
+header > h1{
+    font-family: 'Bebas Neue', 'cursive';
+    text-align: center;
+    padding: 2rem 0rem 1rem 0rem;
+    
+
+}
+
+header > p{
+    padding: 1rem 0rem;
+    text-align: center;
+}
+
+nav{
+    background:#2e40e6;
+    padding: 0.5rem;
+   
+}
+
+nav > a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 0rem 0.5rem;  
+   
+}
+
+nav > a:hover{
+    color:#141E75;
+    background: #7380F5;
+    border-radius: 0.2rem; 
+    padding: 0.5rem;
+    
+}
+
+
+article h2, h3{
+    font-family: 'android';
+}
+
+article h2{
+    color: #141E75;
+
+}
+
+article h3{
+    color: #141E75;
+    background: #7380F5;   
+}
+
+
+#imagem_irina, #imagem_bugdroid{
+    text-align: center;
+   
+}
+
+
+@media (max-width: 360px) {
+    #imagem_irina {
+        background-image: url('imagens/irina-blok-pq.jpg');
+    }
+  }
+
+
+/*--------- article -----------*/
+
+article {
+    max-width: 800px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 0rem;
+    overflow: hidden;
+
+}
+
+article  > h2, h3, p{
+    padding: 0.1rem;
+    margin: 0rem 1rem;
+ /*   letter-spacing: 1px; espaçqmento entre letras
+    word-spacing: espaçemanto entre as palavras;*/
+    line-height: 2rem; /*altura da linha*/
+    
+
+}
+
+article >  p{
+    text-indent: 2rem; /* espaçemanto entre a primeira linha dp paragrafo*/
+}
+
+article img{
+    width: 100%;
+}
+
+
+/*--------- VIDEO -----------*/
+
+iframe{
+    width: 100%;
+    padding: 2rem;
+    background:#141E75;
+  
+}
+
+/*--------- section -----------*/
+
+section{
+    background: #7380F5;
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+    margin: 2rem 1rem;
+    box-shadow: 1px 2px 6px black;
+    
+}
+
+section > h4{
+    background:#141E75;
+    padding: 0.5rem;  
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+    color: rgb(255, 255, 255);
+}
+
+section > p, ul{
+    padding: 0.5rem;
+    text-align: justify;
+    
+}
+
+section > p {
+    text-indent: 2rem;
+}
+
+
+section > ul{
+    list-style: none;
+    display: inline-block;
+    padding-right: 12rem;
+}
+
+/*--------- footer -----------*/
+
+footer{
+    text-align: center;
+    background:#141E75;
+    padding: 0.5rem;
+    color: rgb(255, 255, 255);
+}
+
+footer strong > a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
